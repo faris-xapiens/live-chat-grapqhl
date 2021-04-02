@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Sample application used in the [GraphQL by Example](https://bit.ly/graphql-by-example) course.",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uptoskill/graphql-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uptoskill/graphql-chat/issues"
+  },
+  "homepage": "https://github.com/uptoskill/graphql-chat#readme",
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
